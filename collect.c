@@ -28,7 +28,7 @@ void CollectCardID(void)
     {
 	    for(j=0; j<MAX_SLOT_COUNT;j++)
         {
-            ExpModule[i][j].ModuleType = 0xff;
+            ExpModule[i][j].ModuleType = 0xaa;
         }
     }
     
